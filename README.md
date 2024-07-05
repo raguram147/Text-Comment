@@ -7,14 +7,12 @@ The internet can be a mean and nasty place...but it doesn't need to be! This pro
 - [Introduction](#introduction)
 - [Dataset](#dataset)
 - [Installation](#installation)
-- [Usage](#usage)
 - [Model Architecture](#model-architecture)
 - [Training the Model](#training-the-model)
 - [Making Predictions](#making-predictions)
 - [Interactive Interface](#interactive-interface)
 - [Results](#results)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
@@ -28,8 +26,8 @@ The dataset used in this project is originally from Kaggle. It contains comments
 
 To run this project, you'll need to install the necessary dependencies. You can do this by running:
 
-```bash
-pip install -r requirements.txt
+`bash
+pip install -r requirements.txt`
 
 
 ## **Requirements**
@@ -60,14 +58,14 @@ The prediction script (predict.py) loads the trained model and makes predictions
 
 Example:
 
-```bash
-python predict.py --text "This is an example comment"
+`bash
+python predict.py --text "This is an example comment"`
 
 Interactive Interface
 The interactive interface uses Gradio to provide a user-friendly web application for making predictions. Run the following command to start the Gradio interface:
 
-```bash
-python app.py
+`bash
+python app.py`
 
 This will open a web browser window where you can enter comments and see the model's predictions in real time.
 
