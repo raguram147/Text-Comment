@@ -40,6 +40,7 @@ pip install -r requirements.txt`
 - Gradio
 
 **Model Architecture**
+
 The model is built using TensorFlow and consists of the following layers:
 
 - Embedding Layer
@@ -51,9 +52,11 @@ The model is built using TensorFlow and consists of the following layers:
 This architecture helps capture the text data's sequential patterns and make accurate predictions.
 
 **Training the Model**
+
 The training script (train.py) reads the preprocessed data, defines the model architecture, and trains the model using the training data. The script saves the trained model to a specified directory for later use.
 
 **Making Predictions**
+
 The prediction script (predict.py) loads the trained model and makes predictions on new comments. You can provide a raw string input, and the script will output the probability of the comment being toxic.
 
 Example:
@@ -69,10 +72,13 @@ python app.py`
 
 This will open a web browser window where you can enter comments and see the model's predictions in real time.
 
-##**Results**
+**Results**
 
 After training the model, you can evaluate its performance using various metrics such as accuracy, precision, recall, and F1 score. The results will help you understand the effectiveness of the model in detecting toxic comments.
+https://bacfb5f45b64991c62.gradio.live/
+![image](https://github.com/raguram147/Text-Comment/assets/41324316/971d61ee-0c8a-4134-a449-9e0af682e6a5)
 
-Contributing
+
+**Contributing**
 
 Contributions are welcome! If you'd like to contribute to this project, please fork the repository and submit a pull request.
